@@ -18,7 +18,7 @@ const articles = ref([]);
 const fetchArticles = async () =>
   await api
     .get('/top-headlines?country=us')
-    .then((response) => { articles.value = response.data.articles });
+    .then((response) => articles.value = response.data.articles);
 
 
 onMounted(fetchArticles);

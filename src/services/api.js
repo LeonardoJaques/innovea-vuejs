@@ -4,7 +4,6 @@ import axios from 'axios'
 
 const API_KEY = '8a969863166f49eb8773bf1d30302894'
 const API_BASE_URL = 'newsapi.org/v2'
-// const API_BASE_URL = 'https://pokeapi.co/api/v2/'
 const corsProxyUrl = 'https://cors-anywhere.herokuapp.com/'
 
 axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*'
