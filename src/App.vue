@@ -6,8 +6,6 @@ import ApiView from './views/ApiView.vue';
 <template>
   <div class="wrapper">
     <ApiView />
-
-
   </div>
 </template>
 
